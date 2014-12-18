@@ -1,0 +1,13 @@
+(ns euler-1.core
+  (:gen-class))
+
+(defn -main
+  "I don't do a whole lot ... yet."
+  [& args]
+  (my_function)
+  (println "Euler 1"))
+
+(defn my_function 
+      []
+      (println "I called my function")
+)
